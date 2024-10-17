@@ -16,7 +16,7 @@ jobs:
       - name: Controller_Overlay
         uses: Teebra/JSON-to-HTML-table@v2.0.0
         with:
-          json-file: https://github.com/messyfringe/Controller/blob/main/dualsense.json  # Specify the path to your JSON file
+          json-file: dualsense.json  # Specify the path to your JSON file
 
       - name: Upload HTML Table to Artifacts
         uses: actions/upload-artifact@v3
